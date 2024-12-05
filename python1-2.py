@@ -1,0 +1,2 @@
+print("hola")
+PRINT("hola")
