@@ -18,45 +18,16 @@ print("2 - Mostrar la resta del primero menos el segundo")
 print("3 - Mostrar la multiplicación de los dos números")
 print("4 - Salir del programa") 
 
-o = input("Elija una de las 4 opciones: ")
+o = int(input("Elija una de las 4 opciones: "))
 
-"""
-while (o == 1) :
-    o = float(input("1 - Mostrar la suma de los números"))
-print(n + m)
+while (o != 1) and (o != 2) and (o != 3) and (o != 4) :
+    o = int(input("Elija una de las 4 opciones: "))
 
-while (o == 2) :
-    o = float(input("2 - Mostrar la resta del primero menos el segundi"))
-print(n - m)
-
-while (o == 3) :
-    o = float(input("3 - Mostrar la multiplicación de los dos números"))
-print(n * m)
-
-while (o == 4) :
-    o = float(input("4 - Salir del programa"))
-print("Apagado.")
-
-
-while (o == 1 or 2 or 3 or 4) :
-    
-    if (o == 1) :
-        print(n + m)
-    if (o == 2) :
-        print(n - m)
-    if (o == 3) :
-        print(n * m)
-    if (o == 4) :
-        print("Fin")
-
-"""
-
-while (o >= 1) or (o <= 4) :
-    if o == 1 :
-        print(n + m)
-    if o == 2 :
-        print(n - m)
-    if o == 3 :
-        print(n * m)
-    if o == 4 :
-        print("Fin")
+if (o == 1) :
+    print(n + m)
+elif (o == 2) :
+    print(n - m)
+elif (o == 3) :
+    print(n * m)
+elif (o == 4) :
+    print("Fin del programa.")
