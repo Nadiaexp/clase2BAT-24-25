@@ -6,7 +6,7 @@ número entero.
 """
 
 u = input("Dime tu nombre: ")
-n = input("Dime un número entero: ")
+n = int(input("Dime un número entero: "))
 
-for n = n 
-    print(n)
+for n in range (n) : 
+    print(u)
